@@ -2,14 +2,6 @@
     
     require "database.php";
 
-    $sql = "SELECT * FROM canadese_recepten";
-
-    $result = mysqli_query($conn,$sql);
-
-    $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-    $rowcount = mysqli_num_rows($result);
-
 ?>
 
 
@@ -30,14 +22,13 @@
 <body>
 
     <nav id="left">
-        <a href="recepten.php">Recepten</a>
-        <a href="specials.php">Specials</a>
+
     </nav>
     <nav id="middle">
-        <a href="index.php">Receptenboek</a>
+
     </nav>
     <nav id="right">
-        <a><?php echo $rowcount ?> recepten gevonden</a>
+        
     </nav>
 
 </body>

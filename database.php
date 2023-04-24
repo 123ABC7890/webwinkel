@@ -5,7 +5,7 @@
 $host  = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "recept";
+$dbname = "";
 
 // Maak een  database connectie
 $conn = mysqli_connect($host, $dbuser, $dbpass, $dbname);

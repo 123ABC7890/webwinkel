@@ -2,12 +2,6 @@
     
     require "database.php";
 
-    $sql = "SELECT * FROM canadese_recepten";
-
-    $result = mysqli_query($conn,$sql);
-
-    $recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
 ?>
 
 <!DOCTYPE html>
